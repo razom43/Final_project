@@ -1,9 +1,16 @@
 How To Run Tests
-Install all requirements:
+----------------
 
-pip3 install -r requirements
-Download Selenium WebDriver from https://chromedriver.chromium.org/downloads (choose version which is compatible with your browser)
+1) Install all requirements:
 
-Run tests:
+    ```bash
+    pip3 install -r requirements
+    ```
 
-python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*
+2) Download Selenium WebDriver from https://chromedriver.chromium.org/downloads (choose version which is compatible with your browser)
+
+3) Run tests:
+
+    ```bash
+    python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*
+    ```

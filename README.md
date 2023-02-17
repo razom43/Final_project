@@ -1,15 +1,18 @@
-How To Run Tests
+
+
+
+Как запусить тесты
 ----------------
 
-1) Install all requirements:
+1) Установить библиотеки:
 
     ```bash
     pip3 install -r requirements.txt
     ```
 
-2) Download Selenium WebDriver from https://chromedriver.chromium.org/downloads (choose version which is compatible with your browser)
+2) Скачать Selenium WebDriver https://chromedriver.chromium.org/downloads (выберите нужную вам версию драйвера)
 
-3) Run tests:
+3) зупуск тестов:
 
     ```bash
     python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*

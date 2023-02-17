@@ -22,7 +22,7 @@
 
 2) Скачать Selenium WebDriver https://chromedriver.chromium.org/downloads (выберите нужную вам версию драйвера)
 
-3) зупуск тестов:
+3) Запуск тестов:
 
     ```bash
     python3 -m pytest -v --driver Chrome --driver-path ~/chrome tests/*

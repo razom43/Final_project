@@ -6,6 +6,9 @@ from pages.RegPage import RegHelper
 
 @pytest.mark.parametrize("name", constants.LIST_INVALID_NAME)
 def test_invalid_first_name_error(chrome, name):
+    """
+    проверка ввода невалидного значения в поле имя на странице регистрации
+    """
     rt_page = RegHelper(chrome)
     rt_page.go_to_site()
     rt_page.click_btn(locators.AuthPageLocators.BTN_REG)
@@ -17,6 +20,9 @@ def test_invalid_first_name_error(chrome, name):
 
 @pytest.mark.parametrize("name", constants.LIST_INVALID_NAME)
 def test_invalid_last_name_error(chrome, name):
+    """
+    проверка ввода невалидного значения в поле фамилия на странице регистрации
+    """
     rt_page = RegHelper(chrome)
     rt_page.go_to_site()
     rt_page.click_btn(locators.AuthPageLocators.BTN_REG)
@@ -28,6 +34,9 @@ def test_invalid_last_name_error(chrome, name):
 
 @pytest.mark.parametrize("name", constants.LIST_INVALID_EMAIL_PHONE)
 def test_invalid_email_phone_error(chrome, name):
+    """
+    проверка ввода невалидного значения в поле email или телефон на странице регистрации
+    """
     rt_page = RegHelper(chrome)
     rt_page.go_to_site()
     rt_page.click_btn(locators.AuthPageLocators.BTN_REG)

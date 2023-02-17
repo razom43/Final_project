@@ -1,9 +1,9 @@
 # Валидные данные
-PHONE_NUM_VALID = "9951718546"                      # Валидный номер телефона
-PASS_VALID = "Celeron140M"                          # Валидный пароль
-EMAIL_VALID = "Mof0s1987@gmail.com"                 # Валидный email
-LOGIN_VALID = "rtkid_1676367991340"                 # Валидный логин
-ACCOUNT_VALID = "111111111111"                      # Валидный номер договора
+PHONE_NUM_VALID = ""                                # Валидный номер телефона
+PASS_VALID = ""                                     # Валидный пароль
+EMAIL_VALID = ""                                    # Валидный email
+LOGIN_VALID = ""                                    # Валидный логин
+ACCOUNT_VALID = ""                                  # Валидный номер договора
 
 
 # Невалидные данные
